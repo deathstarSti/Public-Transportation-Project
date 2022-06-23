@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ΟΑΣΑ - Βρες Διαδρομή</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="logo" />
+        </a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Αρχική</a></li>
+            <li class="nav-item"><a href="services.html" class="nav-link">Υπηρεσίες</a></li>
+            <li class="nav-item"><a href="tickets.html" class="nav-link">Εισιτήρια</a></li>
+            <li class="nav-item"><a href="dromologia.html" class="nav-link"><storng>Δρομολόγια</storng></a></li>
+            <li class="nav-item"><a href="news.html" class="nav-link">Ανακοινώσεις</a></li>
+            <li class="nav-item"><a href="amea.html" class="nav-link">ΑμεΑ</a></li>
+            <li class="nav-item"><a href="login.html" class="nav-link">Είσοδος</a></li>
+            <li class="nav-item cta"><a href="signup.html" class="nav-link">Εγγραφή</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+
+
+    <script>
+      
+      var x=null ;
+
+      function mybresFunction() {
+        if(x != null)
+        {
+          x.style.display = "none";
+        }
+        if (document.getElementById('khfapo').checked && document.getElementById('khfpros').checked) {
+          x=document.getElementById("myDIVk")
+          x.style.display = "block";
+        }
+         else if(document.getElementById('khfapo').checked && document.getElementById('dppros').checked) 
+         {
+          x=document.getElementById("myDIVkdp")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('khfapo').checked && document.getElementById('ppros').checked) 
+         {
+          x=document.getElementById("myDIVkp")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('khfapo').checked && document.getElementById('agpros').checked) 
+         {
+          x=document.getElementById("myDIVkag")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('khfapo').checked && document.getElementById('opros').checked) 
+         {
+          x=document.getElementById("myDIVko")
+          x.style.display = "block";
+        }
+
+
+
+
+        else if (document.getElementById('dpapo').checked && document.getElementById('khfpros').checked) {
+          x=document.getElementById("myDIVdpk")
+          x.style.display = "block";
+        }
+         else if(document.getElementById('dpapo').checked && document.getElementById('dppros').checked) 
+         {
+          x=document.getElementById("myDIVdp")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('dpapo').checked && document.getElementById('ppros').checked) 
+         {
+          x=document.getElementById("myDIVdpp")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('dpapo').checked && document.getElementById('agpros').checked) 
+         {
+          x=document.getElementById("myDIVdpag")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('dpapo').checked && document.getElementById('opros').checked) 
+         {
+          x=document.getElementById("myDIVdpo")
+          x.style.display = "block";
+        }
+
+
+
+        else if (document.getElementById('papo').checked && document.getElementById('khfpros').checked) {
+          x=document.getElementById("myDIVpk")
+          x.style.display = "block";
+        }
+         else if(document.getElementById('papo').checked && document.getElementById('dppros').checked) 
+         {
+          x=document.getElementById("myDIVpdp")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('papo').checked && document.getElementById('ppros').checked) 
+         {
+          x=document.getElementById("myDIVp")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('papo').checked && document.getElementById('agpros').checked) 
+         {
+          x=document.getElementById("myDIVpag")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('papo').checked && document.getElementById('opros').checked) 
+         {
+          x=document.getElementById("myDIVpo")
+          x.style.display = "block";
+        }
+
+
+
+
+        else if (document.getElementById('agapo').checked && document.getElementById('khfpros').checked) {
+          x=document.getElementById("myDIVagk")
+          x.style.display = "block";
+        }
+         else if(document.getElementById('agapo').checked && document.getElementById('dppros').checked) 
+         {
+          x=document.getElementById("myDIVagdp")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('agapo').checked && document.getElementById('ppros').checked) 
+         {
+          x=document.getElementById("myDIVagp")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('agapo').checked && document.getElementById('agpros').checked) 
+         {
+          x=document.getElementById("myDIVag")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('agapo').checked && document.getElementById('opros').checked) 
+         {
+          x=document.getElementById("myDIVago")
+          x.style.display = "block";
+        }
+
+
+
+        else if (document.getElementById('oapo').checked && document.getElementById('khfpros').checked) {
+          x=document.getElementById("myDIVok")
+          x.style.display = "block";
+        }
+         else if(document.getElementById('oapo').checked && document.getElementById('dppros').checked) 
+         {
+          x=document.getElementById("myDIVodp")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('oapo').checked && document.getElementById('ppros').checked) 
+         {
+          x=document.getElementById("myDIVop")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('oapo').checked && document.getElementById('agpros').checked) 
+         {
+          x=document.getElementById("myDIVoag")
+          x.style.display = "block";
+        }
+        else if(document.getElementById('oapo').checked && document.getElementById('opros').checked) 
+         {
+          x=document.getElementById("myDIVo")
+          x.style.display = "block";
+        }
+
+
+      }
+  </script>
+
+
+
+
+
+
+
+
+
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/arxiki.png');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate pb-5 text-center">
+            <h1 class="mb-3 bread">Βρείτε την διαδρομή σας!</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Αρχική <i class="ion-ios-arrow-forward"></i></a></span> <span>Βρες διαδρομή <i class="ion-ios-arrow-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   	
+
+
+    <section class="ftco-counter" id="section-counter">
+    	<div class="container-fluid">
+    		<div class="row d-flex">
+    			<div class="col-md-12 px-10 py-5">
+		    		<div class="row">
+                        <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+
+                        <div class="block-18 text-center ">
+                            <div class="text">
+                          <a class="navbar-brand d-flex justify-content-center align-items-center " >
+                            <img src="images/station.png" alt="logo" />
+                          </a>
+                      </div>
+                      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+                              <strong>Από σταθμό:</strong>
+                              <ul>
+                                <strong>
+                                  <li><a href="#Khfisia"  style="color: darkblue ;"><input type="radio" id="khfapo" name="apo" value="khf">Κηφισιά</a></li>
+                                  <li><a href="#DPlakentias"  style="color: darkblue ;"><input type="radio" id="dpapo" name="apo" value="dp">Δουκισσης πλακεντιας</a></li>
+                                  <li><a href="#Peiraias"  style="color: darkblue ;"><input type="radio" id="papo" name="apo" value="p">Πειραιάς</a></li>
+                                  <li><a href="#AgMarina" style="color: darkblue ;"><input type="radio" id="agapo" name="apo" value="am">Αγία Μαρίνα.</a></li>
+                                  <li><a href="#Omonoia"   style="color: darkblue ;"><input type="radio" id="oapo" name="apo" value="o">Ομόνοια.</a></li>
+                              </strong>  
+                              </ul>
+                          </div>  
+                      </div>
+                    </div>
+                    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+
+                        <div class="block-18 text-center ">
+                            <div class="text">
+                          <a class="navbar-brand d-flex justify-content-center align-items-center " >
+                            <img src="images/station.png" alt="logo" />
+                          </a>
+                      </div>
+                      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+                              <strong>Προς σταθμό:</strong>
+                              <ul>
+                                <strong>
+                                  <li><a href="#Khfisia"  style="color: darkblue ;"><input type="radio" id="khfpros" name="pros" value="khf">Κηφισιά</a></li>
+                                  <li><a href="#DPlakentias"  style="color: darkblue ;"><input type="radio" id="dppros" name="pros" value="dp">Δουκισσης πλακεντιας</a></li>
+                                  <li><a href="#Peiraias"  style="color: darkblue ;"><input type="radio" id="ppros" name="pros" value="p">Πειραιάς</a></li>
+                                  <li><a href="#AgMarina" style="color: darkblue ;"><input type="radio" id="agpros" name="pros" value="am">Αγία Μαρίνα.</a></li>
+                                  <li><a href="#Omonoia"   style="color: darkblue ;"><input type="radio" id="opros" name="pros" value="o">Ομόνοια.</a></li>
+                              </strong>  
+                              </ul>
+                            <div class="text-right">
+                              <strong><input type="submit" onclick=mybresFunction()></strong>
+                            </div>
+                          </div>  
+                      </div>
+                    </div>
+
+                    
+                    <div id="myDIVk" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                      <div class="block-18 text-center ">
+                        <div class="text">
+                          <a class="navbar-brand d-flex justify-content-center align-items-center " >
+                              <img src="images/khfisia.jfif" alt="logo" />
+                            </a>
+                          <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+                              <strong>Σταθμός Κηφισιάς:</strong>
+                              <ul>
+                                <strong>
+                                  <li>Ο σταθμός της Κηφισιάς βρίσκεται στο τέρμα της πράσινης γραμμής του ηλεκτρικού
+                                      σιδηρόδρομου Μ1 Πειραιάς-Κηφισιά
+                                  </li>
+                                  <li>Σύνδεση με τις γραμμές λεωφορείων 550 και Α7 </li>
+                              </strong>  
+                              </ul>
+                          </div>   
+                        </div>
+                      </div>
+                  </div>	
+                  <div id="myDIVkdp" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18 text-left ">
+                      <div class="text">
+                        <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+                            <strong>Από Κηφισιά προς Δουκίσσης πλακεντίας:</strong>
+                            <ul>
+                              <strong>
+                                <li>Θα πάρετε την πράσινη γραμμή Μ1 απο την Κηφισιά μέχρι
+                                  την στάση Μοναστηράκι.
+                                </li>
+                                <li>Έπειτα θα πάρετε την μπλε γραμμή M3 από το Μοναστηράκι 
+                                  με κατεύθυνση Δουκίσσης πλακεντίας και θα κατεβείτε στον σταθμό.
+                                 </li>
+                                 <li>
+                                   Τιμή εισιτηρίου 1.40 (Ενιαίο).
+                                 </li>
+                                 <li>
+                                  Διάρκεια διαδρομής 1 ώρα.
+                                </li>
+                            </strong>  
+                            </ul>
+                        </div>   
+                      </div>
+                    </div>
+                </div>	
+                <div id="myDIVkp" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                  <div class="block-18 text-left ">
+                    <div class="text">
+                      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+                          <strong>Από Κηφισιά προς Πειραιά:</strong>
+                          <ul>
+                            <strong>
+                              <li>Θα πάρετε την πράσινη γραμμή Μ1 απο την Κηφισιά μέχρι
+                                το επόμενο τερματικό σταθμό,δηλαδή τον σταθμό του Πειραιά.
+                              </li>
+                               <li>
+                                 Τιμή εισιτηρίου 1.40 (Ενιαίο).
+                               </li>
+                               <li>
+                                Διάρκεια διαδρομής 1 ώρα.
+                              </li>
+                          </strong>  
+                          </ul>
+                      </div>   
+                    </div>
+                  </div>
+              </div>	
+              <div id="myDIVkag" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 text-left ">
+                  <div class="text">
+                    <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+                        <strong>Από Κηφισιά προς Αγία Μαρίνα:</strong>
+                        <ul>
+                          <strong>
+                            <li>Θα πάρετε την πράσινη γραμμή Μ1 απο την Κηφισιά μέχρι
+                              την στάση Μοναστηράκι.
+                            </li>
+                            <li>Έπειτα θα πάρετε την μπλε γραμμή M3 από το Μοναστηράκι 
+                              με κατεύθυνση προς την Αγία Μαρίνα και θα κατεβείτε στον σταθμό.
+                             </li>
+                             <li>
+                               Τιμή εισιτηρίου 1.40 (Ενιαίο).
+                               </li>
+                               <li>
+                                Διάρκεια διαδρομής 1 ώρα.
+                              </li>
+                        </strong>  
+                        </ul>
+                    </div>   
+                  </div>
+                </div>
+            </div>	
+            <div id="myDIVko" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+              <div class="block-18 text-left ">
+                <div class="text">
+                  <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+                      <strong>Από Κηφισιά προς Ομόνοια:</strong>
+                      <ul>
+                        <strong>
+                          <li>Θα πάρετε την πράσινη γραμμή Μ1 απο την Κηφισιά μέχρι
+                            την στάση Ομόνοια.
+                          </li>
+                           <li>
+                             Τιμή εισιτηρίου 1.40 (Ενιαίο).</li>
+                             <li>
+                              Διάρκεια διαδρομής 30 λεπτά.
+                            </li>
+                            </strong>  
+                      </ul>
+                  </div>   
+                </div>
+              </div>
+          </div>	
+
+
+
+          <div id="myDIVdpk" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 text-left ">
+              <div class="text">
+                <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+                    <strong>Από Δουκίσσης πλακεντίας προς Κηφισιά:</strong>
+                    <ul>
+                      <strong>
+                        <li>Θα πάρετε την μπλε γραμμή Μ3 απο τον σταθμό Δουκίσσης πλακεντίας μέχρι
+                          την στάση Μοναστηράκι.
+                        </li>
+                        <li>Έπειτα θα πάρετε την πράσινη γραμμή M1 από το Μοναστηράκι 
+                          με κατεύθυνση Κηφισιά και θα κατεβείτε στον σταθμό.
+                         </li>
+                         <li>
+                           Τιμή εισιτηρίου 1.40 (Ενιαίο).
+                         </li>
+                         <li>
+                           Διάρκεια διαδρομής 1 ώρα
+                         </li>
+                    </strong>  
+                    </ul>
+                </div>   
+              </div>
+            </div>
+        </div>	
+
+    
+        <div id="myDIVdp" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+          <div class="block-18 text-center ">
+            <div class="text">
+              <a class="navbar-brand d-flex justify-content-center align-items-center " >
+                  <img src="images/dplakedias.jpg" alt="logo" />
+                </a>
+              <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+                  <strong>Σταθμός Δουκίσσης πλακεντίας:</strong>
+                  <ul>
+                    <strong>
+                      <li>Τερματικός σταθμός της γραμμής Μ3 του μετρό
+                          Αγία Μαρίνα - Δουκίσσης πλακεντίας
+                      </li>
+                      <li>Σύνδεση με τις γραμμές λεωφορείων λεωφορεία 405 και 411</li>
+                  </strong>  
+                  </ul>
+              </div>   
+            </div>
+          </div>
+      </div>
+
+
+
+      <div id="myDIVdpp" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+        <div class="block-18 text-left ">
+          <div class="text">
+            <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+                <strong>Από Δουκίσσης πλακεντίας προς Πειραιά:</strong>
+                <ul>
+                  <strong>
+                    <li>Θα πάρετε την μπλε γραμμή Μ3 απο το σταθμο Δουκίσσης πλακεντίας μέχρι
+                      την στάση Μοναστηράκι.
+                    </li>
+                    <li>Έπειτα θα πάρετε την πράσινη γραμμή M1 από το Μοναστηράκι 
+                      με κατεύθυνση Πειραιά και θα κατεβείτε στον σταθμό.
+                     </li>
+                     <li>
+                       Τιμή εισιτηρίου 1.40 (Ενιαίο).
+                     </li>
+                     <li>
+                       Διάρκεια διαδρομής 1 ώρα
+                     </li>
+                </strong>  
+                </ul>
+            </div>   
+          </div>
+        </div>
+    </div>	    
+
+
+    <div id="myDIVdpag" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+      <div class="block-18 text-left ">
+        <div class="text">
+          <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+              <strong>Από Δουκίσσης πλακεντίας προς Αγία Μαρίνα:</strong>
+              <ul>
+                <strong>
+                  <li>Θα πάρετε την μπλε γραμμή Μ3 απο την Δουκίσσης πλακεντίας μέχρι
+                    τον επόμενο τερματικό σταθμό,δηλαδή της Αγ.Μαρίνας.
+                  </li>
+                   <li>
+                     Τιμή εισιτηρίου 1.40 (Ενιαίο).
+                   </li>
+                   <li>
+                     Διάρκεια διαδρομής 30 λεπτά ώρα
+                   </li>
+              </strong>  
+              </ul>
+          </div>   
+        </div>
+      </div>
+  </div>	    
+        
+
+
+
+  
+  <div id="myDIVdpo" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+    <div class="block-18 text-left ">
+      <div class="text">
+        <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+            <strong>Από Δουκίσσης πλακεντίας προς Ομόνοια:</strong>
+            <ul>
+              <strong>
+                <li>Θα πάρετε την μπλε γραμμή Μ3 απο την Δουκίσσης πλακεντίας μέχρι
+                  την στάση Μοναστηράκι.
+                </li>
+                <li>
+                  Θα πάρετε την πράσινη γραμμή Μ1 απο το Μοναστηράκι με κατεύθυνση την Κηφισιά
+                  και θα κατεβείτε στην στάση Ομόνοια.
+                </li>
+                 <li>
+                   Τιμή εισιτηρίου 1.40 (Ενιαίο).
+                 </li>
+                 <li>
+                   Διάρκεια διαδρομής 30 λεπτά ώρα
+                 </li>
+            </strong>  
+            </ul>
+        </div>   
+      </div>
+    </div>
+</div>	    
+
+
+
+<div id="myDIVpk" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-left ">
+    <div class="text">
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Από Πειραιά προς Κηφισιά:</strong>
+          <ul>
+            <strong>
+              <li>Θα πάρετε την πράσινη γραμμή Μ1 απο τον σταθμό του Πειραιά μέχρι
+                τον επόμενο τερματικό σταθμό της Κηφισιάς.
+              </li>
+               <li>
+                 Τιμή εισιτηρίου 1.40 (Ενιαίο).
+               </li>
+               <li>
+                 Διάρκεια διαδρομής 1 ώρα.
+               </li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>	    
+
+
+
+<div id="myDIVpdp" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-left ">
+    <div class="text">
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Από Πειραιά προς Δουκίσσης πλακεντίας:</strong>
+          <ul>
+            <strong>
+              <li>Θα πάρετε την πράσινη γραμμή Μ1 απο τον σταθμό του Πειραιά μέχρι
+                την σταση Μοναστηράκι.
+              </li>
+              <li>Έπειτα θα πάρετε την μπλε γραμμή Μ3 από το Μοναστηράκι με κατεύθυνση προς 
+                Δουκίσσης πλακεντίας και να κατεβείτε στον σταθμό.
+              </li>
+               <li>
+                 Τιμή εισιτηρίου 1.40 (Ενιαίο).
+               </li>
+               <li>
+                 Διάρκεια διαδρομής 1  ώρα.
+               </li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>	    
+
+
+<div id="myDIVp" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-center ">
+    <div class="text">
+      <a class="navbar-brand d-flex justify-content-center align-items-center " >
+          <img src="images/peiraias.jpg" alt="logo" />
+        </a>
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Σταθμός Πειραιά:</strong>
+          <ul>
+            <strong>
+              <li>Ο σταθμός του Πειραιά βρίσκεται στο τέρμα της πράσινης γραμμής του ηλεκτρικού
+                  σιδηρόδρομου Μ1 Πειραιάς-Κηφισιά.
+              </li>
+              <li>Συνδεση με τισ γραμμές λεωφορείων 803 και 814.</li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>	 	   
+
+
+
+<div id="myDIVpag" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-left ">
+    <div class="text">
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Από Πειραιά προς Αγία Μαρίνα:</strong>
+          <ul>
+            <strong>
+              <li>Θα πάρετε την πράσινη γραμμή Μ1 απο τον σταθμό του Πειραιά μέχρι
+                την σταση Μοναστηράκι.
+              </li>
+              <li>Έπειτα θα πάρετε την μπλε γραμμή Μ3 από το Μοναστηράκι με κατεύθυνση προς 
+                Αγία Μαρίνα και να κατεβείτε στον σταθμό.
+              </li>
+               <li>
+                 Τιμή εισιτηρίου 1.40 (Ενιαίο).
+               </li>
+               <li>
+                 Διάρκεια διαδρομής 1  ώρα
+               </li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>	   
+
+
+
+<div id="myDIVpo" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-left ">
+    <div class="text">
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Από Πειραιά προς Ομόνοια:</strong>
+          <ul>
+            <strong>
+              <li>Θα πάρετε την πράσινη γραμμή Μ1 απο τον σταθμό του Πειραιά μέχρι
+                την σταση Ομόνοια.
+              </li>
+
+               <li>
+                 Τιμή εισιτηρίου 1.40 (Ενιαίο).
+               </li>
+               <li>
+                 Διάρκεια διαδρομής 30 λεπτά.
+               </li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>	    
+
+
+
+<div id="myDIVagk" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-left ">
+    <div class="text">
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Από Αγία Μαρίνα προς Κηφισιά:</strong>
+          <ul>
+            <strong>
+              <li>Θα πάρετε την μπλε γραμμή Μ3 απο τον σταθμό της Αγίας Μαρίνας μέχρι
+                την σταση Μοναστηράκι.
+              </li>
+              <li>Από εκεί θα πάρετε την πράσινη γραμμή Μ1 απο την στάση Μοναστηράκι μέχρι
+                τον τερματικό σταθμό της Κηφισιάς.
+              </li>
+               <li>
+                 Τιμή εισιτηρίου 1.40 (Ενιαίο).
+               </li>
+               <li>
+                 Διάρκεια διαδρομής 1 ώρα.
+               </li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>	    
+
+
+<div id="myDIVagdp" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-left ">
+    <div class="text">
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Από Αγία Μαρίνα προς Δουκίσσης πλακεντίας:</strong>
+          <ul>
+            <strong>
+              <li>Θα πάρετε την μπλε γραμμή Μ3 απο τον σταθμό της Αγίας Μαρίνας μέχρι
+                τον επόμενο τερματικό σταθμό της Δουκίσσης πλακεντίας.
+              </li>
+               <li>
+                 Τιμή εισιτηρίου 1.40 (Ενιαίο).
+               </li>
+               <li>
+                 Διάρκεια διαδρομής 30 λεπτά.
+               </li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>	    
+
+
+
+<div id="myDIVagp" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-left ">
+    <div class="text">
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Από Αγία Μαρίνα προς Πειραιά:</strong>
+          <ul>
+            <strong>
+              <li>Θα πάρετε την μπλε γραμμή Μ3 απο τον σταθμό της Αγίας Μαρίνας μέχρι
+                την σταση Μοναστηράκι.
+              </li>
+              <li>Από εκεί θα πάρετε την πράσινη γραμμή Μ1 απο την στάση Μοναστηράκι μέχρι
+                τον τερματικό σταθμό του Πειραιά.
+              </li>
+               <li>
+                 Τιμή εισιτηρίου 1.40 (Ενιαίο).
+               </li>
+               <li>
+                 Διάρκεια διαδρομής 1 ώρα.
+               </li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>	    
+
+
+
+<div id="myDIVag" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-center ">
+    <div class="text">
+      <a class="navbar-brand d-flex justify-content-center align-items-center " >
+          <img src="images/agiamarina.jpg" alt="logo" />
+        </a>
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Σταθμός Αγίας Μαρίνας:</strong>
+          <ul>
+            <strong>
+              <li>Τερματικός σταθμός της γραμμής Μ3 του μετρό
+                  Αγία Μαρίνα - Δουκίσσης πλακεντίας
+              </li>
+              <li>Σύνδεση με τις γραμμές λεωφορείων 803 και 811 </li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>		  
+
+
+
+<div id="myDIVago" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-left ">
+    <div class="text">
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Από Αγία Μαρίνα προς Ομόνοια:</strong>
+          <ul>
+            <strong>
+              <li>Θα πάρετε την μπλε γραμμή Μ3 απο τον σταθμό της Αγίας Μαρίνας μέχρι
+                την σταση Μοναστηράκι.
+              </li>
+              <li>Από εκεί θα πάρετε την πράσινη γραμμή Μ1 απο την στάση Μοναστηράκι προς Κηφισιά 
+                μέχρι τον σταθμό της Ομόνοιας.
+              </li>
+               <li>
+                 Τιμή εισιτηρίου 1.40 (Ενιαίο).
+               </li>
+               <li>
+                 Διάρκεια διαδρομής 30 λεπτά.
+               </li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>	    
+
+
+
+
+
+<div id="myDIVok" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-left ">
+    <div class="text">
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Από Ομόνοια	προς Κηφισιά:</strong>
+          <ul>
+            <strong>
+              <li>Θα πάρετε την πράσινη γραμμή Μ1 απο τον σταθμό της Ομόνοιας μέχρι
+                τον τερματικο σταθμό της Κηφισιάς.
+              </li>
+  
+               <li>
+                 Τιμή εισιτηρίου 1.40 (Ενιαίο).
+               </li>
+               <li>
+                 Διάρκεια διαδρομής 30 λεπτά.
+               </li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>	    
+
+
+<div id="myDIVodp" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-left ">
+    <div class="text">
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Από Ομόνοια	προς Δουκίσσης πλακεντίας:</strong>
+          <ul>
+            <strong>
+              <li>Θα πάρετε την πράσινη γραμμή Μ1 απο τον σταθμό της Ομόνοιας 
+                προς Πειραιά μέχρι την στάση Μοναστηράκι.
+              </li>
+                <li>
+                  Από εκεί θα πάρετε την μπλε γραμμή Μ3 μέχρι τον τερματικό σταθμό 
+                  της Δουκίσσης πλακεντίας.
+                </li>
+               <li>
+                 Τιμή εισιτηρίου 1.40 (Ενιαίο).
+               </li>
+               <li>
+                 Διάρκεια διαδρομής 30 λεπτά.
+               </li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>	    
+
+
+
+<div id="myDIVop" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-left ">
+    <div class="text">
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Από Ομόνοια	προς Πειραιά:</strong>
+          <ul>
+            <strong>
+              <li>Θα πάρετε την πράσινη γραμμή Μ1 απο τον σταθμό της Ομόνοιας 
+                προς Πειραιά μέχρι τον τερματικό σταθμό.
+              </li>
+               <li>
+                 Τιμή εισιτηρίου 1.40 (Ενιαίο).
+               </li>
+               <li>
+                 Διάρκεια διαδρομής 30 λεπτά.
+               </li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>	    
+
+
+<div id="myDIVoag" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-left ">
+    <div class="text">
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Από Ομόνοια	προς Αγία Μαρίνα:</strong>
+          <ul>
+            <strong>
+              <li>Θα πάρετε την πράσινη γραμμή Μ1 απο τον σταθμό της Ομόνοιας 
+                προς Πειραιά μέχρι την στάση Μοναστηράκι.
+              </li>
+                <li>
+                  Από εκεί θα πάρετε την μπλε γραμμή Μ3 μέχρι τον τερματικό σταθμό 
+                  της Αγίας Μαρίνας.
+                </li>
+               <li>
+                 Τιμή εισιτηρίου 1.40 (Ενιαίο).
+               </li>
+               <li>
+                 Διάρκεια διαδρομής 30 λεπτά.
+               </li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>	   
+
+
+<div id="myDIVo" style="display: none;" class="col-md-6 justify-content-center counter-wrap ftco-animate">
+  <div class="block-18 text-center ">
+    <div class="text">
+      <a class="navbar-brand d-flex justify-content-center align-items-center " >
+          <img src="images/omonoia.jfif" alt="logo" />
+        </a>
+      <div class="block-18 text-left px-5 py-4 bg-light mb-4">
+          <strong>Σταθμός Ομόνοιας:</strong>
+          <ul>
+            <strong>
+              <li>Σύνδεση με την γραμμη Μ1 Πειραιάς-Κηφισιά</li>
+              <li>Συνδεση με την γραμμη Μ2 Ανθούπολη-Ελληνικό</li>
+              <li>Σύνδεση με τρόλλεϋ</li>
+          </strong>  
+          </ul>
+      </div>   
+    </div>
+  </div>
+</div>		        
+
+
+
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+    <br>
+  
+
+  
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">ΟΑΣΑ</h2>
+                <p>Βρείτε τον ΟΑΣΑ και στα social media!</p>
+                <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4 ml-md-5">
+                <h2 class="ftco-heading-2">Επιλογές</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Σχετικά με Εμας</a></li>
+                  <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Πληροφορίες</a></li>
+                  <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Δρομολόγια</a></li>
+                  <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Εισιτήρια</a></li>
+                  <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Επικοινωνία</a></li>
+                  <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Συχνές Ερωτήσεις</a></li>
+                  <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Πληροφορίες για ΑΜΕΑ</a></li>
+  
+                </ul>
+              </div>
+            </div>
+            <div class="col-md">
+               <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Ώρες Λειτουργίας Εκδοτηρίων</h2>
+                <div class="opening-hours">
+                    <h4>Καθημερινές:</h4>
+                    <p class="pl-3">
+                        <span>Δευτέρα - Παρασκευή : 9 π.μ μέχρι 8 μ.μ</span>
+                        <span>Σάββατο : 9π.μ μέχρι 5 μ.μ</span>
+                    </p>
+                    <h4>Αργίες</h4>
+                    <p class="pl-3">
+                        <span>Όλες οι Κυριακές και οι επίσημες Αργίες</span>
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4">
+                  <h2 class="ftco-heading-2">Κεντρικά Γραφεία ΟΑΣΑ</h2>
+                  <div class="block-23 mb-3">
+                    <ul>
+                      <li><span class="icon icon-map-marker"></span><span class="text">Μετσόβου 15, Αθήνα</span></li>
+                      <li><a href="#"><span class="icon icon-phone"></span><span class="text">210-8200999</span></a></li>
+                      <li><a href="#"><span class="icon icon-envelope"></span><span class="text">oasa@oasa.gr</span></a></li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
